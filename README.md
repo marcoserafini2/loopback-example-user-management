@@ -4,6 +4,7 @@
 $ git clone git@github.com:strongloop/loopback-example-user-management.git
 $ cd loopback-example-user-management
 $ npm install
+$ bower install
 $ node .
 ```
 

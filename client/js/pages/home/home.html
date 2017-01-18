@@ -1,0 +1,7 @@
+<div ng-show="isAuthenticated">{{currentUser}}</div>
+
+<div ng-show="!isAuthenticated">
+	<a ui-sref="login" class="btn btn-lg btn-success btn-block">Login</a>
+	</br>
+	<a ui-sref="register" class="btn btn-lg btn-success btn-block">Register</a>
+</div>

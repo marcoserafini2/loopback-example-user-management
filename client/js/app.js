@@ -27,6 +27,11 @@ angular
         url: '/login',
         templateUrl: 'js/pages/login/login.html',
         controller: 'LoginController'
+      })
+      .state('logout', {
+        url: '/logout',
+        templateUrl: 'js/pages/logout/logout.html',
+        controller: 'LogoutController'
       });
 
     $urlRouterProvider.otherwise('home');

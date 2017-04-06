@@ -1,4 +1,8 @@
-<div ng-show="isAuthenticated">{{currentUser}}</div>
+<div ng-show="isAuthenticated">
+	{{currentUser}}
+	</br>
+	<a ui-sref="logout" class="btn btn-lg btn-success btn-block">Logout</a>
+</div>
 
 <div ng-show="!isAuthenticated">
 	<a ui-sref="login" class="btn btn-lg btn-success btn-block">Login</a>
